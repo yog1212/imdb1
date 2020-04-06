@@ -1,0 +1,124 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 219660386,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify New Account Signin in IMDB",
+        "description": "",
+        "id": "verify-new-account-signin-in-imdb;verify-new-account-signin-in-imdb;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2614213819,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5698242075,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open Chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 7
+                }
+              ],
+              "location": "GenericSteps.openBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8044539495,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I go to loginURL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginURL",
+                  "offset": 8
+                }
+              ],
+              "location": "GenericSteps.navigate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20045260795,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on Signin and Create New Account with Test and Test and Test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 49
+                },
+                {
+                  "val": "Test",
+                  "offset": 58
+                },
+                {
+                  "val": "Test",
+                  "offset": 67
+                }
+              ],
+              "location": "GenericSteps.signin(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TV_Shows"
+          },
+          {
+            "name": "@TV_Shows"
+          }
+        ]
+      }
+    ],
+    "name": "Verify New Account Signin in IMDB",
+    "description": "",
+    "id": "verify-new-account-signin-in-imdb",
+    "keyword": "Feature",
+    "uri": "F:/imdb/src/test/resources/signin.feature",
+    "tags": [
+      {
+        "name": "@TV_Shows",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

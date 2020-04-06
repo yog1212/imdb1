@@ -1,0 +1,781 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building imdb 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://jcenter.bintray.com/junit/junit/maven-metadata.xml
+[WARNING] Could not transfer metadata junit:junit/maven-metadata.xml from/to jcenter (http://jcenter.bintray.com): Access denied to: http://jcenter.bintray.com/junit/junit/maven-metadata.xml , ReasonPhrase:Forbidden.
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ imdb ---
+[INFO] Deleting F:\imdb\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 9 source files to F:\imdb\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cucumber-jvm-parallel-plugin:5.0.0:generateRunners (generateRunners) @ imdb ---
+[INFO] Adding F:\imdb\target\generated-test-sources\cucumber to test-compile source root
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to F:\imdb\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ imdb ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running Parallel01IT
+***Bef*** Verify New Account Signin in IMDB
+F:\reports\Tue Apr 07 03_17_08 SGT 2020//Report.html
+***Aft***
+
+Failed scenarios:
+F:/imdb/src/test/resources/signin.feature:12 # Verify New Account Signin in IMDB
+
+1 Scenarios (1 failed)
+3 Steps (1 failed, 2 passed)
+0m37.920s
+
+java.lang.NullPointerException
+	at com.imdb.webdriver.WebConnector.click(WebConnector.java:100)
+	at com.imdb.pages.SignInPage.newaccountCreation(SignInPage.java:26)
+	at com.imdb.steps.GenericSteps.signin(GenericSteps.java:98)
+	at ?.User click on Signin and Create New Account with <name> and Test and Test(F:/imdb/src/test/resources/signin.feature:8)
+
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.855 s - in Parallel01IT
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 53.330 s
+[INFO] Finished at: 2020-04-07T03:17:47+08:00
+[INFO] Final Memory: 30M/478M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building imdb 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://jcenter.bintray.com/junit/junit/maven-metadata.xml
+[WARNING] Could not transfer metadata junit:junit/maven-metadata.xml from/to jcenter (http://jcenter.bintray.com): Access denied to: http://jcenter.bintray.com/junit/junit/maven-metadata.xml , ReasonPhrase:Forbidden.
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ imdb ---
+[INFO] Deleting F:\imdb\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 9 source files to F:\imdb\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cucumber-jvm-parallel-plugin:5.0.0:generateRunners (generateRunners) @ imdb ---
+[INFO] Adding F:\imdb\target\generated-test-sources\cucumber to test-compile source root
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to F:\imdb\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ imdb ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running Parallel01IT
+***Bef*** Verify New Account Signin in IMDB
+F:\reports\Tue Apr 07 03_21_27 SGT 2020//Report.html
+***Aft***
+
+1 Scenarios (1 passed)
+3 Steps (3 passed)
+0m29.764s
+
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.857 s - in Parallel01IT
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 44.176 s
+[INFO] Finished at: 2020-04-07T03:21:58+08:00
+[INFO] Final Memory: 30M/478M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building imdb 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://jcenter.bintray.com/junit/junit/maven-metadata.xml
+[WARNING] Could not transfer metadata junit:junit/maven-metadata.xml from/to jcenter (http://jcenter.bintray.com): Access denied to: http://jcenter.bintray.com/junit/junit/maven-metadata.xml , ReasonPhrase:Forbidden.
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ imdb ---
+[INFO] Deleting F:\imdb\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 9 source files to F:\imdb\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cucumber-jvm-parallel-plugin:5.0.0:generateRunners (generateRunners) @ imdb ---
+[INFO] Adding F:\imdb\target\generated-test-sources\cucumber to test-compile source root
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to F:\imdb\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ imdb ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running Parallel01IT
+***Bef*** Verify New Account Signin in IMDB
+F:\reports\Tue Apr 07 03_28_42 SGT 2020//Report.html
+Test__0_7___0_4___2_0_2_0_ _0_3___2_8___4_2_@gmail.com
+Test__0_7___0_4___2_0_2_0_ _0_3___2_8___4_2_
+***Aft***
+
+1 Scenarios (1 passed)
+3 Steps (3 passed)
+0m27.549s
+
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.516 s - in Parallel01IT
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 43.233 s
+[INFO] Finished at: 2020-04-07T03:29:10+08:00
+[INFO] Final Memory: 30M/478M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building imdb 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://jcenter.bintray.com/junit/junit/maven-metadata.xml
+[WARNING] Could not transfer metadata junit:junit/maven-metadata.xml from/to jcenter (http://jcenter.bintray.com): Access denied to: http://jcenter.bintray.com/junit/junit/maven-metadata.xml , ReasonPhrase:Forbidden.
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ imdb ---
+[INFO] Deleting F:\imdb\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 9 source files to F:\imdb\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cucumber-jvm-parallel-plugin:5.0.0:generateRunners (generateRunners) @ imdb ---
+[INFO] Adding F:\imdb\target\generated-test-sources\cucumber to test-compile source root
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to F:\imdb\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ imdb ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running Parallel01IT
+***Bef*** Verify New Account Signin in IMDB
+F:\reports\Tue Apr 07 03_32_27 SGT 2020//Report.html
+Test_@gmail.com
+Test_
+***Aft***
+
+1 Scenarios (1 passed)
+3 Steps (3 passed)
+0m27.350s
+
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.308 s - in Parallel01IT
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 42.550 s
+[INFO] Finished at: 2020-04-07T03:32:54+08:00
+[INFO] Final Memory: 30M/478M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building imdb 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://jcenter.bintray.com/junit/junit/maven-metadata.xml
+[WARNING] Could not transfer metadata junit:junit/maven-metadata.xml from/to jcenter (http://jcenter.bintray.com): Access denied to: http://jcenter.bintray.com/junit/junit/maven-metadata.xml , ReasonPhrase:Forbidden.
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ imdb ---
+[INFO] Deleting F:\imdb\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 9 source files to F:\imdb\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cucumber-jvm-parallel-plugin:5.0.0:generateRunners (generateRunners) @ imdb ---
+[INFO] Adding F:\imdb\target\generated-test-sources\cucumber to test-compile source root
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to F:\imdb\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ imdb ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running Parallel01IT
+***Bef*** Verify New Account Signin in IMDB
+F:\reports\Tue Apr 07 03_34_48 SGT 2020//Report.html
+Test@gmail.com
+Test
+***Aft***
+
+1 Scenarios (1 passed)
+3 Steps (3 passed)
+0m27.915s
+
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.862 s - in Parallel01IT
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 44.042 s
+[INFO] Finished at: 2020-04-07T03:35:16+08:00
+[INFO] Final Memory: 30M/478M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building imdb 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://jcenter.bintray.com/junit/junit/maven-metadata.xml
+[WARNING] Could not transfer metadata junit:junit/maven-metadata.xml from/to jcenter (http://jcenter.bintray.com): Access denied to: http://jcenter.bintray.com/junit/junit/maven-metadata.xml , ReasonPhrase:Forbidden.
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ imdb ---
+[INFO] Deleting F:\imdb\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 9 source files to F:\imdb\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cucumber-jvm-parallel-plugin:5.0.0:generateRunners (generateRunners) @ imdb ---
+[INFO] Adding F:\imdb\target\generated-test-sources\cucumber to test-compile source root
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 4 source files to F:\imdb\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ imdb ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running Parallel01IT
+***Bef*** Verify New Account Signin in IMDB
+F:\reports\Tue Apr 07 03_38_10 SGT 2020//Report.html
+Test033810938@gmail.com
+Test033810938
+***Aft***
+
+Failed scenarios:
+F:/imdb/src/test/resources/signin.feature:12 # Verify New Account Signin in IMDB
+
+1 Scenarios (1 failed)
+3 Steps (1 failed, 2 passed)
+0m55.420s
+
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'YOGESH', ip: '192.168.79.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\WIN8~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 37b0f9cecd836c906cf6fb739fb7947c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.imdb.webdriver.WebConnector.click(WebConnector.java:100)
+	at com.imdb.pages.SignInPage.newaccountCreation(SignInPage.java:27)
+	at com.imdb.steps.GenericSteps.signin(GenericSteps.java:102)
+	at ?.User click on Signin and Create New Account with Test and Test and Test(F:/imdb/src/test/resources/signin.feature:8)
+
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 57.33 s - in Parallel01IT
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:10 min
+[INFO] Finished at: 2020-04-07T03:39:06+08:00
+[INFO] Final Memory: 30M/478M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building imdb 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://jcenter.bintray.com/junit/junit/maven-metadata.xml
+[WARNING] Could not transfer metadata junit:junit/maven-metadata.xml from/to jcenter (http://jcenter.bintray.com): Access denied to: http://jcenter.bintray.com/junit/junit/maven-metadata.xml , ReasonPhrase:Forbidden.
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ imdb ---
+[INFO] Deleting F:\imdb\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 9 source files to F:\imdb\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cucumber-jvm-parallel-plugin:5.0.0:generateRunners (generateRunners) @ imdb ---
+[INFO] Adding F:\imdb\target\generated-test-sources\cucumber to test-compile source root
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 4 source files to F:\imdb\target\test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /F:/imdb/src/test/java/com/imdb/steps/GenericSteps.java:[103,27] method verifyloginnewuser in class com.imdb.pages.SignInPage cannot be applied to given types;
+  required: java.lang.String,java.lang.String
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 12.356 s
+[INFO] Finished at: 2020-04-07T03:44:45+08:00
+[INFO] Final Memory: 28M/478M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project imdb: Compilation failure
+[ERROR] /F:/imdb/src/test/java/com/imdb/steps/GenericSteps.java:[103,27] method verifyloginnewuser in class com.imdb.pages.SignInPage cannot be applied to given types;
+[ERROR] required: java.lang.String,java.lang.String
+[ERROR] found: no arguments
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building imdb 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://jcenter.bintray.com/junit/junit/maven-metadata.xml
+[WARNING] Could not transfer metadata junit:junit/maven-metadata.xml from/to jcenter (http://jcenter.bintray.com): Access denied to: http://jcenter.bintray.com/junit/junit/maven-metadata.xml , ReasonPhrase:Forbidden.
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ imdb ---
+[INFO] Deleting F:\imdb\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 9 source files to F:\imdb\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cucumber-jvm-parallel-plugin:5.0.0:generateRunners (generateRunners) @ imdb ---
+[INFO] Adding F:\imdb\target\generated-test-sources\cucumber to test-compile source root
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 4 source files to F:\imdb\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ imdb ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running Parallel01IT
+***Bef*** Verify New Account Signin in IMDB
+F:\reports\Tue Apr 07 03_46_41 SGT 2020//Report.html
+Test034641604@gmail.com
+Test034641604
+Terminate batch job (Y/N)? 
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building imdb 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://jcenter.bintray.com/junit/junit/maven-metadata.xml
+[WARNING] Could not transfer metadata junit:junit/maven-metadata.xml from/to jcenter (http://jcenter.bintray.com): Access denied to: http://jcenter.bintray.com/junit/junit/maven-metadata.xml , ReasonPhrase:Forbidden.
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ imdb ---
+[INFO] Deleting F:\imdb\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 9 source files to F:\imdb\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cucumber-jvm-parallel-plugin:5.0.0:generateRunners (generateRunners) @ imdb ---
+[INFO] Adding F:\imdb\target\generated-test-sources\cucumber to test-compile source root
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 4 source files to F:\imdb\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ imdb ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running Parallel01IT
+***Bef*** Verify New Account Signin in IMDB
+F:\reports\Tue Apr 07 03_52_33 SGT 2020//Report.html
+Test035233356@gmail.com
+Test035233356
+***Aft***
+
+1 Scenarios (1 passed)
+3 Steps (3 passed)
+0m31.010s
+
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.905 s - in Parallel01IT
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 47.405 s
+[INFO] Finished at: 2020-04-07T03:53:04+08:00
+[INFO] Final Memory: 30M/478M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building imdb 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://jcenter.bintray.com/junit/junit/maven-metadata.xml
+[WARNING] Could not transfer metadata junit:junit/maven-metadata.xml from/to jcenter (http://jcenter.bintray.com): Access denied to: http://jcenter.bintray.com/junit/junit/maven-metadata.xml , ReasonPhrase:Forbidden.
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ imdb ---
+[INFO] Deleting F:\imdb\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 9 source files to F:\imdb\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cucumber-jvm-parallel-plugin:5.0.0:generateRunners (generateRunners) @ imdb ---
+[INFO] Adding F:\imdb\target\generated-test-sources\cucumber to test-compile source root
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 4 source files to F:\imdb\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ imdb ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running Parallel01IT
+***Bef*** Verify New Account Signin in IMDB
+F:\reports\Tue Apr 07 03_53_47 SGT 2020//Report.html
+Test035347326@gmail.com
+Test035347326
+***Aft***
+
+Failed scenarios:
+F:/imdb/src/test/resources/signin.feature:12 # Verify New Account Signin in IMDB
+
+1 Scenarios (1 failed)
+3 Steps (1 failed, 2 passed)
+0m56.274s
+
+java.lang.NullPointerException
+	at com.imdb.webdriver.WebConnector.click(WebConnector.java:100)
+	at com.imdb.pages.SignInPage.verifyloginnewuser(SignInPage.java:42)
+	at com.imdb.steps.GenericSteps.signin(GenericSteps.java:103)
+	at ?.User click on Signin and Create New Account with Test and Test and Test(F:/imdb/src/test/resources/signin.feature:8)
+
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 58.216 s - in Parallel01IT
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:12 min
+[INFO] Finished at: 2020-04-07T03:54:44+08:00
+[INFO] Final Memory: 30M/478M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building imdb 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://jcenter.bintray.com/junit/junit/maven-metadata.xml
+[WARNING] Could not transfer metadata junit:junit/maven-metadata.xml from/to jcenter (http://jcenter.bintray.com): Access denied to: http://jcenter.bintray.com/junit/junit/maven-metadata.xml , ReasonPhrase:Forbidden.
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ imdb ---
+[INFO] Deleting F:\imdb\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 9 source files to F:\imdb\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imdb ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cucumber-jvm-parallel-plugin:5.0.0:generateRunners (generateRunners) @ imdb ---
+[INFO] Adding F:\imdb\target\generated-test-sources\cucumber to test-compile source root
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ imdb ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ imdb ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 4 source files to F:\imdb\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ imdb ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running Parallel01IT
+***Bef*** Verify New Account Signin in IMDB
+F:\reports\Tue Apr 07 03_56_57 SGT 2020//Report.html
+Test035657917@gmail.com
+Test035657917
+***Aft***
+
+1 Scenarios (1 passed)
+3 Steps (3 passed)
+0m36.733s
+
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.797 s - in Parallel01IT
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 49.527 s
+[INFO] Finished at: 2020-04-07T03:57:35+08:00
+[INFO] Final Memory: 29M/478M
+[INFO] ------------------------------------------------------------------------
